@@ -10,8 +10,8 @@ jobs:
         steps:
             - name: Checkout code
               uses: actions/checkout@v2
-        steps:
-            -name: display my name
-            run: echo "my name is $first_name"
-            env:
+         
+            - name: display my name
+              run: echo "my name is $first_name"
+              env:
                 first_name: "shraavya"
